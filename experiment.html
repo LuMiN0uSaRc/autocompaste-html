@@ -1,4 +1,4 @@
-
+<!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -132,8 +132,8 @@
                 filepath = filepath + participantId + ".json";
 
                 $.get(filepath, function (data) {
-                    // trialsData = data.experiments;
-                    trialsData = $.parseJSON(data).experiments;
+                    trialsData = data.experiments;
+                    //trialsData = $.parseJSON(data).experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
