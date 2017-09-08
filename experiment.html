@@ -46,8 +46,12 @@
                                 <td><span class="js-expt-granularity">Phrase</span></td>
                             </tr>
                             <tr>
-                                <td>Independent Variable 3</td>
-                                <td>???</td>
+                                <td>Number of Windows</td>
+                                <td><span class="js-expt-numwindows">1</span></td>
+                            </tr>
+                            <tr>
+                                <td>Color</td>
+                                <td><span class="js-expt-color">White</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -81,7 +85,7 @@
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Technique', 'Granularity',
+            var headers = ['Participant id', 'Technique', 'Granularity', 'Number of Windows', 'Color',
                             'Trial no', 'Stimuli', 'User Response', 'Trial Start Time',
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
@@ -93,6 +97,8 @@
 
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
+                    var numWindows = trialResult.num_windows;
+                    // var color = trialResults.color;
                     var trialNum = currentTrial;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
@@ -101,7 +107,7 @@
                     var trialDuration = trialResult.duration;
                     var accuracy = stimuli === userResponse ? 1 : 0;
 
-                    var row = [pid, technique, granularity, trialNum,
+                    var row = [pid, technique, granularity, numWindows, trialNum,
                                 stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
@@ -119,8 +125,18 @@
             }
 
             $(document).ready(function () {
-                $.get('data/experiments.json', function (data) {
-                    trialsData = data.experiments;
+                var filepath = "data/experiments-";
+                participantId = ACPToolKit.getCurrentParticipantId();
+                participantId = participantId%6; 
+                if(participantId == 0) { 
+                    participantId = 6;
+                }
+                console.log("ID: " + participantId);
+                filepath = filepath + participantId + ".json";
+
+                $.get(filepath, function (data) {
+                    // trialsData = data.experiments;
+                    trialsData = $.parseJSON(data).experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);

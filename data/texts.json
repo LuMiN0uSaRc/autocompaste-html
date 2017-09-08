@@ -1,26 +1,26 @@
 [
     {
-        "title": "Data 1",
+        "title": "1. Agumon",
         "url": "data/articles/data1.txt"
     },
     {
-        "title": "Data 2",
+        "title": "2. MapleStory",
         "url": "data/articles/data2.txt"
     },
     {
-        "title": "Article 3",
+        "title": "3. Bboy",
         "url": "data/articles/Article_3.txt"
     },
     {
-        "title": "Article 4",
+        "title": "4. Pokemon",
         "url": "data/articles/Article_4.txt"
     },
     {
-        "title": "Article 5",
+        "title": "5. Fun facts",
         "url": "data/articles/Article_5.txt"
     },
     {
-        "title": "Article 6",
+        "title": "6. Mockingbird",
         "url": "data/articles/Article_6.txt"
     }
 ]

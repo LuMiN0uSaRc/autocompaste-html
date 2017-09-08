@@ -80,10 +80,14 @@ var ACPToolKit = (function () {
             currentTrialOptions = options;
 
             var data_file = options.data_file;
+            var numWindows = options.num_windows;
+            var textNum = options.text_number;
             var stimuli = options.stimuli;
+            var color = options.color;
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
+            $('.js-expt-numwindows').text(options.num_windows);
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
@@ -104,7 +108,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, numWindows, textNum, color);
 
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
