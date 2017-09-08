@@ -1,15 +1,17 @@
-What is atomic number? The number of positive charges or protons in the nucleus of an atom.
+Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called "Pokémon", which humans, known as Pokémon Trainers, catch and train to battle each other for sport.
 
-What is attenuate? To reduce the amplitude of an action or signal. The opposite of amplification.
+The franchise began as a pair of video games for the original Game Boy that were developed by Game Freak and published by Nintendo. It now spans video games, trading card games, animated television shows and movies, comic books, and toys. The franchise is also represented in other Nintendo media, such as the Super Smash Bros. series.
 
-What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz.
+Pokémon is the second best-selling video game franchise, behind only Nintendo's Mario franchise and the highest-grossing media franchise of all time.
 
-What is autotransformer? A single winding transformer where the output is taken from taps on the winding.
+2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played.
 
-What is average value? A value of voltage or current where the area of the wave above the value equals the area of the wave below the value.
+The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child.
 
-What is avionics? Aviation electronics.
+In most incarnations of the Pokémon universe, a Trainer who encounters a wild Pokémon is able to capture that Pokémon by throwing a specially designed, mass-producible spherical tool called a Poké Ball at it.
 
-What is balanced bridge? Condition that occurs when a bridge circuit is adjusted to produce a zero output.
+In the main series, each game's single-player mode requires the Trainer to raise a team of Pokémon to defeat many non-player character (NPC) Trainers and their Pokémon.
 
-What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated.
+The Pokédex is an electronic device featured in the Pokémon video game and anime series.
+
+"Pokédex" is also used to refer to a list of Pokémon, usually a list of Pokémon by number. In the video games, a Pokémon Trainer is issued a blank device at the start of the journey.

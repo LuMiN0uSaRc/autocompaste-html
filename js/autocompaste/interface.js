@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json) {
+  function Interface (wm, engine, texts_json, numWindows, textNum, color) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -110,11 +110,48 @@ AutoComPaste.Interface = (function () {
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
 
+        var counter = 0;
+
         for (var text_title in privates.texts) {
-          if (privates.texts.hasOwnProperty(text_title)) {
-            console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
+          var titleArr = text_title.split(".");
+          var dataNum = parseInt(titleArr[0]);
+
+          if (privates.texts.hasOwnProperty(text_title) && numWindows != 1) {
+            console.log("Interface._fetchTextComplete: Creating window for text1 \"" + text_title + "\"");
             iface._createWindowForText(text_title);
+            if(color == "black") { 
+              for(var i=0; i<6; i++) {
+                if(i == counter) {
+                  document.getElementById('autocompaste-display').querySelectorAll('#autocompaste-display > .wm-window .modal-body')[i].style.backgroundColor = "black";
+                  document.getElementsByTagName('pre').item(i).style.backgroundColor = 'black';
+                  document.getElementsByTagName('pre').item(i).style.color = 'white';
+                }
+              }
+            } else if(color == "white") {
+              for(var i=0; i<6; i++) {
+                if(i == counter) {
+                  document.getElementById('autocompaste-display').querySelectorAll('#autocompaste-display > .wm-window .modal-body')[i].style.backgroundColor = "white";
+                  document.getElementsByTagName('pre').item(i).style.backgroundColor = 'white';
+                  document.getElementsByTagName('pre').item(i).style.color = 'black';
+                }
+              }
+            }
+
+          } else if (dataNum == textNum) {
+            console.log("Interface._fetchTextComplete: Creating window for text2 \"" + text_title + "\"");
+            iface._createWindowForText(text_title);
+            if(color == "black") { 
+              document.getElementById('autocompaste-display').querySelectorAll('#autocompaste-display > .wm-window .modal-body')[0].style.backgroundColor = "black";
+              document.getElementsByTagName('pre').item(0).style.backgroundColor = 'black';
+              document.getElementsByTagName('pre').item(0).style.color = 'white';
+            } else if(color == "white") {
+              document.getElementById('autocompaste-display').querySelectorAll('#autocompaste-display > .wm-window .modal-body')[0].style.backgroundColor = "white";
+              document.getElementsByTagName('pre').item(0).style.backgroundColor = 'white';
+              document.getElementsByTagName('pre').item(0).style.color = 'black';
+            }
           }
+          console.log("Color: " + color);
+          counter++;
         }
 
         // Create a text editor window.
