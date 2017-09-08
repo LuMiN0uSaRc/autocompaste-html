@@ -61,6 +61,7 @@ body.experiment-page {
 #autocompaste-display > .wm-window .modal-body {
   padding: 5px;
   overflow-y: auto;
+  /*background-color: #ff0000;*/
 }
 
 #autocompaste-display > .wm-window .modal-body .highlighted {
@@ -73,6 +74,7 @@ body.experiment-page {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  /*background-color: #ff0000;*/
 }
 
 #autocompaste-completion {

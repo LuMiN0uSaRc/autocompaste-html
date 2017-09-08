@@ -1,0 +1,2271 @@
+{
+    "experiments": [
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns. " 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Banging your head against a wall burns 150 calories an hour." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "release of the original games" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "down to the floor to perform the next set of moves" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "put out the flames of love"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The Pokédex is an electronic device featured in the Pokémon video game and anime series." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Foot work is comprises a set of moves that the dancer performs with his feet while he is standing or on the floor." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "And so wishing, Private Grayrock, overcome at last by the languor of the afternoon and lulled by the stilly sounds of insects droning and prosing in certain fragrant shrubs, so far forgot the interests of the United States as to fall asleep and expose himself to capture. And sleeping he dreamed." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the languor of the afternoon" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the child of a pig farmer" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "intending to make names for themselves"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "On Jupiter and Saturn it rains diamonds." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "While diverse in the amount of variation available in the dance, breakdancing mainly consists of four kinds of movement: toprock, downrock, power moves, and freezes." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It also has flattened forearms with broad, three-clawed hands, though early artwork for the Digimon virtual pet depicted its hands with four claws, and distinct pectoral muscles." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "most incarnations of the Pokémon universe" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "innumerable variations of this technique" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "MetalGreymon and finally WarGreymon or Omnimon"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is the second best-selling video game franchise, behind only Nintendo's Mario franchise and the highest-grossing media franchise of all time." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "There are monsters that await you with a cute, disarming smile, and there are those that charge at you furiously and threaten your safety." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Breakdancing is typically set to hip-hop, funk, and breakbeat music, although modern trends allow for much wider varieties of music along certain ranges of tempo and beat patterns." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the new and larger experience" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "has amber orange skin and light green eyes." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "burns about 11 calories"
+        },
+
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "You are halfway then, keep it there!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "There are more possible iterations of a game of chess than there are atoms in the known universe." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "In the main series, each game's single-player mode requires the Trainer to raise a team of Pokémon to defeat many non-player character (NPC) Trainers and their Pokémon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "A dancer may choose to end the dance routine by pretending to fall down and loose control of himself. To make a 'suicide' look effective, it must look painful, as if while performing you have really hit yourself." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play, 2D, side-scrolling massively multiplayer online role-playing game, developed by the South Korean company Wizet." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "such as the Super Smash Bros. series." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "pretending to fall down" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "atoms in the known universe."
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Hang on there..." 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The drops are where the dancer 'drops' from the standing position, down to the floor to perform the next set of moves." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Adventurers set foot on the world of Maple" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Coca-Cola would be green"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Almost done soon!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "McDonalds calls frequent buyers of their food “heavy users.”" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The dance spread worldwide due to popularity in the media, especially in regions such as Canada, France, Germany, Japan, Russia, South Korea and the United Kingdom." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the release of the original games" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "especially in regions such as Canada" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "three-clawed hands"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "A tiny bit more!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "In the video games, a Pokémon Trainer is issued a blank device at the start of the journey." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Freeze is a technique in which the dancer momentarily pauses in a balance challenging or intriguing position. There are innumerable variations of this technique and of course, you can always come up with your own body contorting move and just hold for a couple of seconds." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "letters full of boyish bravado" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the Digimon virtual pet depicted its hands with four claws" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "You are 1% shorter"
+        },
+
+
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "This is the end of block, 2 more blocks to go! Let's go!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Banging your head against a wall burns 150 calories an hour." 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns. " 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "down to the floor to perform the next set of moves" 
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "release of the original games" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "put out the flames of love"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The Pokédex is an electronic device featured in the Pokémon video game and anime series." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Foot work is comprises a set of moves that the dancer performs with his feet while he is standing or on the floor." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "And so wishing, Private Grayrock, overcome at last by the languor of the afternoon and lulled by the stilly sounds of insects droning and prosing in certain fragrant shrubs, so far forgot the interests of the United States as to fall asleep and expose himself to capture. And sleeping he dreamed." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the languor of the afternoon" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "intending to make names for themselves"
+             
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the child of a pig farmer"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "On Jupiter and Saturn it rains diamonds." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "While diverse in the amount of variation available in the dance, breakdancing mainly consists of four kinds of movement: toprock, downrock, power moves, and freezes." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!" 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It also has flattened forearms with broad, three-clawed hands, though early artwork for the Digimon virtual pet depicted its hands with four claws, and distinct pectoral muscles." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "most incarnations of the Pokémon universe" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "MetalGreymon and finally WarGreymon or Omnimon"
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "innumerable variations of this technique" 
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is the second best-selling video game franchise, behind only Nintendo's Mario franchise and the highest-grossing media franchise of all time." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "There are monsters that await you with a cute, disarming smile, and there are those that charge at you furiously and threaten your safety." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Breakdancing is typically set to hip-hop, funk, and breakbeat music, although modern trends allow for much wider varieties of music along certain ranges of tempo and beat patterns." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the new and larger experience" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "burns about 11 calories"
+            
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "has amber orange skin and light green eyes." 
+        },
+
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "You are halfway then, keep it there!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "There are more possible iterations of a game of chess than there are atoms in the known universe." 
+             
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP."
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "In the main series, each game's single-player mode requires the Trainer to raise a team of Pokémon to defeat many non-player character (NPC) Trainers and their Pokémon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "A dancer may choose to end the dance routine by pretending to fall down and loose control of himself. To make a 'suicide' look effective, it must look painful, as if while performing you have really hit yourself." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play, 2D, side-scrolling massively multiplayer online role-playing game, developed by the South Korean company Wizet." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "pretending to fall down" 
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "such as the Super Smash Bros. series." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "atoms in the known universe."
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Hang on there..." 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The drops are where the dancer 'drops' from the standing position, down to the floor to perform the next set of moves." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child."
+        },
+        { 
+             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains."  
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Coca-Cola would be green"
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Adventurers set foot on the world of Maple" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play" 
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Almost done soon!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "McDonalds calls frequent buyers of their food “heavy users.”"
+            
+        },
+        { 
+             "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The dance spread worldwide due to popularity in the media, especially in regions such as Canada, France, Germany, Japan, Russia, South Korea and the United Kingdom." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!"
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+             
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "especially in regions such as Canada" 
+             
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the release of the original games"  
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "three-clawed hands"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "A tiny bit more!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "In the video games, a Pokémon Trainer is issued a blank device at the start of the journey." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Freeze is a technique in which the dancer momentarily pauses in a balance challenging or intriguing position. There are innumerable variations of this technique and of course, you can always come up with your own body contorting move and just hold for a couple of seconds." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "letters full of boyish bravado" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "You are 1% shorter"
+            
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the Digimon virtual pet depicted its hands with four claws" 
+        },
+
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "This is the end of block 2, last block to go! Let's go!" 
+        },
+
+        { 
+            
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns. " 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Banging your head against a wall burns 150 calories an hour." 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "down to the floor to perform the next set of moves" 
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "put out the flames of love"
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "release of the original games" 
+            
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+            
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The Pokédex is an electronic device featured in the Pokémon video game and anime series." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Foot work is comprises a set of moves that the dancer performs with his feet while he is standing or on the floor." 
+        },
+        { 
+             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played."
+           
+        },
+        { 
+             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "And so wishing, Private Grayrock, overcome at last by the languor of the afternoon and lulled by the stilly sounds of insects droning and prosing in certain fragrant shrubs, so far forgot the interests of the United States as to fall asleep and expose himself to capture. And sleeping he dreamed." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the child of a pig farmer"
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "intending to make names for themselves"
+             
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "the languor of the afternoon" 
+            
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "While diverse in the amount of variation available in the dance, breakdancing mainly consists of four kinds of movement: toprock, downrock, power moves, and freezes."
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "On Jupiter and Saturn it rains diamonds." 
+             
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!" 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It also has flattened forearms with broad, three-clawed hands, though early artwork for the Digimon virtual pet depicted its hands with four claws, and distinct pectoral muscles." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "most incarnations of the Pokémon universe" 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "innumerable variations of this technique" 
+            
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "MetalGreymon and finally WarGreymon or Omnimon"
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Let's go!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "There are monsters that await you with a cute, disarming smile, and there are those that charge at you furiously and threaten your safety." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is the second best-selling video game franchise, behind only Nintendo's Mario franchise and the highest-grossing media franchise of all time." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Breakdancing is typically set to hip-hop, funk, and breakbeat music, although modern trends allow for much wider varieties of music along certain ranges of tempo and beat patterns." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As with other Rookie digimon, it can also digivolve into Numemon when it doesn't meet the stat requirements of other Champion level Digimon. It can also digivolve to Sukamon if it's Virus bar is completely filled." 
+            
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "burns about 11 calories"
+            
+        },       
+        { 
+            
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the new and larger experience" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [5],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "has amber orange skin and light green eyes." 
+        },
+
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "You are halfway then, keep it there!" 
+        },
+
+
+        { 
+            
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "There are more possible iterations of a game of chess than there are atoms in the known universe." 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "In the main series, each game's single-player mode requires the Trainer to raise a team of Pokémon to defeat many non-player character (NPC) Trainers and their Pokémon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "A dancer may choose to end the dance routine by pretending to fall down and loose control of himself. To make a 'suicide' look effective, it must look painful, as if while performing you have really hit yourself." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play, 2D, side-scrolling massively multiplayer online role-playing game, developed by the South Korean company Wizet." 
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "pretending to fall down" 
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "atoms in the known universe."
+            
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "such as the Super Smash Bros. series." 
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Hang on there..." 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The drops are where the dancer 'drops' from the standing position, down to the floor to perform the next set of moves." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "2016 marks the 20th anniversary of the release of the original games, with the company celebrating by airing an ad during Super Bowl 50, issuing re-releases of Pokémon Red, Blue, and Yellow, and completely redesigning the way the newest games are played." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "It is not to be inferred that Grayrock's was the chagrin of a cruel nature balked of its bloody deed. In the clear large eyes, finely wrought lips, and broad forehead of that young man one could read quite another story, and in point of fact his character was a singularly felicitous compound of boldness and sensibility, courage and conscience." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "The concept of the Pokémon universe, in both the video games and the general fictional world of Pokémon, stems from the hobby of insect collecting, a popular pastime which Pokémon executive director Satoshi Tajiri enjoyed as a child."
+        },
+        { 
+             "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains."  
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Adventurers set foot on the world of Maple" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "Coca-Cola would be green"
+            
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "black",
+            "data_file": "data/texts.json",
+            "stimuli": "MapleStory is a free-to-play" 
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "Almost done soon!" 
+        },
+
+
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The dance spread worldwide due to popularity in the media, especially in regions such as Canada, France, Germany, Japan, Russia, South Korea and the United Kingdom." 
+            
+        },
+        { 
+             "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "It is also a being that foretells Digivolution to a great and powerful Digimon." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "McDonalds calls frequent buyers of their food “heavy users.”"
+            
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "As the unfortunate soldier knelt beside that masterwork of civil war the shrilling bird upon the bough overhead stilled her song and, flushed with sunset's crimson glory, glided silently away through the solemn spaces of the wood. At roll-call that evening in the Federal camp the name William Grayrock brought no response, nor ever again there-after." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "A humble soul, the child of a pig farmer, will reforge old bonds and re-establish the Spirit Pact. The Onyx Dragon will rise again at the side of a new Hero who will use that power to fight for peace and justice!"
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves from Koromon, and can digivolve into Greymon, Meramon, Birdramon, Centarumon, Monochromon, or Tyrannomon depending on its stats." 
+             
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "especially in regions such as Canada" 
+             
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "three-clawed hands"
+        },       
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the release of the original games"  
+            
+        },
+        
+        
+        { 
+            "technique": "TAKE A BREAK", 
+            "granularity": "If you are ready, let's continue with the next task!",
+            "num_windows": [1],
+            "text_number": [0],
+            "data_file": "data/texts.json",
+            "stimuli": "A tiny bit more!" 
+        },
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [2],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Cygnus, the young Empress of Maple World, has sensed some evil forces lurking around the peaceful Maple towns." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "The kinsmen who had adopted the boys were enemies, holding no communication." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "In the video games, a Pokémon Trainer is issued a blank device at the start of the journey." 
+            
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Agumon digivolves into Greymon, then MetalGreymon and finally WarGreymon or Omnimon depending on its DP. Agumon is one of the only rookies that are not seen in any domains." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [4],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Pokémon is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures. The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called Pokémon, which humans, known as Pokémon Trainers, catch and train to battle each other for sport."
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "num_windows": [1],
+            "text_number": [3],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "Freeze is a technique in which the dancer momentarily pauses in a balance challenging or intriguing position. There are innumerable variations of this technique and of course, you can always come up with your own body contorting move and just hold for a couple of seconds." 
+             
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [6],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "letters full of boyish bravado" 
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [1],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "the Digimon virtual pet depicted its hands with four claws" 
+            
+        },       
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "num_windows": [1],
+            "text_number": [5],
+            "color": "white",
+            "data_file": "data/texts.json",
+            "stimuli": "You are 1% shorter"
+            
+        }
+    ]
+}
